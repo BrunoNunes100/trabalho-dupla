@@ -1,29 +1,49 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
+body{border-radius: 15px;
+    border-style: outset;
+    border-width: 10px;
+    border-color: black;
 }
 
-.botao{text-align: center;
-    background-color: black;
-    padding: 15px;
+.comeco{padding: 5px;
+    text-align: right;
 }
-.botao a{text-decoration: none;
+
+
+.comeco a{text-decoration: none;
     padding: 15px;
-    background-color: chocolate;
-    color: black;
-    text-shadow:2px 2px 2px unset;
-    border-radius: 20px;
+    color: white;
+    text-shadow:5px 5px 5px unset;
+    background-color: rgb(182,182,182);
 }
-.botao a:hover{background-color: rgba(66, 66, 66, 0.274);
+
+.comeco li{display: initial;
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: rgb(182,182,182);
+}
+
+.menu a:hover{background-color: rgb(20, 112, 165);
     text-shadow: 2px 2px 2px unset;
     border-radius: 7px;
     transition: 0.3s;
-    border-radius: 20px;
 }
-.botao a :active{background-color: darkred;
+
+.menu a:active{background-color: rgb(0, 255, 128);
 }
-.botao li{display: inline;
-    font-size: 22px;
+
+h1{font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    color: black;
 }
-.botao li:hover{font-size: auto;
-transition: 0,3s;
+
+p{font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: medium;
+    color: black;
+}
+
+h2{font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: black;
 }
