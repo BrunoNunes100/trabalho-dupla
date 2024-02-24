@@ -2,24 +2,25 @@ body{border-radius: 15px;
     border-style: outset;
     border-width: 10px;
     border-color: black;
+    background-color: darkgrey;
 }
 
-.comeco{padding: 5px;
+.menu{padding: 5px;
     text-align: right;
 }
 
 
-.comeco a{text-decoration: none;
+.menu a{text-decoration: none;
     padding: 15px;
-    color: white;
+    color: black;
     text-shadow:5px 5px 5px unset;
-    background-color: rgb(182,182,182);
+    background-color: transparent;
 }
 
-.comeco li{display: initial;
+.menu li{display: initial;
     font-size: 20px;
     margin-left: 5px;
-    background-color: rgb(182,182,182);
+    background-color: transparent;
 }
 
 .menu a:hover{background-color: rgb(20, 112, 165);
@@ -35,7 +36,7 @@ h1{font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: x-large;
     color: black;
-    align-items: center;
+    text-align: center;
 }
 
 p{font-family: Arial, Helvetica, sans-serif;
@@ -48,9 +49,13 @@ p{font-family: Arial, Helvetica, sans-serif;
 h2{font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     color: black;
-    align-items: center;
+    text-align: center;
+}
+
+h5{
+    text-align: center;
 }
 
 .imagem{
-    align-items: center;
+    text-align: center;
 }
